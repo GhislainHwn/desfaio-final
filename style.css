@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&family=Open+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.box-background{
+    background-image: url('assets/laranjaazulrecorte.png');
+    background-size: cover;
+    height: 83vh;
+    color: #ffff;
+}
+.box-background h1 {
+    font-size: 4.87rem;
+    padding: 16% 0 0 11%;
+}
+.box-background p{
+    font-size: 2.1rem;
+    padding: 5% 0 0 11%;
+}
+header{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-logo{
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40rem;
+}
+li{
+    width: 11rem;
+    font-size: 1.3rem;
+    color: #C4C4C4;
+}
+li:hover{
+    cursor: pointer;
+    color:#000;
+    font-weight: 900;
+}
+.container-figure{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.box-figure{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.box-figure img{
+    padding: 0.5rem;
+}
+footer{
+    height: 13vh;
+    background-color: #F5F5F5;   
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.box-social-media{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    padding-left: 19rem;
+}
+.box-social-media img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+}
+.box-text{
+  display: flex;
+}
+.box-text p{
+    padding-left: 1rem;
+}
